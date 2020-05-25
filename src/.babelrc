@@ -1,0 +1,10 @@
+//para decirle a babel que sintaxis es responsable de traducir
+//Babel por defecto va a buscar este archivo 
+
+    //traducir sintaxis moderna de JS  y sintaxis de React
+    {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ]
+    }

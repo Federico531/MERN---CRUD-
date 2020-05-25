@@ -1,7 +1,7 @@
 //Archivo que conecta a base de datos y luego utilizo en index.js
 
 const mongoose = require ('mongoose');
-    //MONGO DB ATLAS, DAN URL PARA CONECTARSE A LA BASE DE DATOS EN LA NUBE (En este caso usamos DB Local)
+    //MONGO DB ATLAS, DA URi PARA CONECTARSE A LA BASE DE DATOS EN LA NUBE (En este caso usamos DB Local)
 
 const URI = 'mongodb://localhost/MERN-CRUD';
 

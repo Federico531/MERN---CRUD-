@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const {Schema } = mongoose;
+const { Schema } = mongoose;
 
 const TaskSchema = new Schema({
     tittle: { type: String, required: true},
